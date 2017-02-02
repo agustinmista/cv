@@ -1,2 +1,3 @@
 all: 
-	pdflatex europecv.tex
+	pdflatex cv.tex
+	pdflatex sop.tex

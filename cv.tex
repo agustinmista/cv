@@ -1,4 +1,4 @@
-\documentclass[helvetica,openbib,logo,notitle,10pt]{europecv}
+\documentclass[helvetica,openbib,logo,notitle,noflag,11pt]{europecv}
 \usepackage[T1]{fontenc}
 \usepackage{graphicx}
 \usepackage[a4paper,top=1.27cm,left=1cm,right=1cm,bottom=1.27cm]{geometry}
@@ -13,136 +13,148 @@
 \ecvnationality{Argentine}
 \ecvaddress{San Juan 669 (06-02), Rosario, Argentina}
 \ecvtelephone{+54 9 3447 430 762}
-%\ecvfax{12345678}
 \ecvemail{\href{mailto:amista@dcc.fceia.unr.edu.ar}
     {amista@dcc.fceia.unr.edu.ar}}
 \ecvhomepage{\url{https://github.com/agustinmista}}
-%\ecvgender{male}
-%\ecvpicture[width=2cm]{lion.png}
-%\ecvfootnote{For more information call me}
+
+\linespread{0.8}
 
 \begin{document}
 \selectlanguage{english}
 \begin{europecv}
 
-    \ecvpersonalinfo[5pt]
-    
-    \ecvsection{Education and training}
+  \ecvpersonalinfo[5pt]
 
-        \ecvitem{2017}{\textbf{DeepSpeec Summer School 2017}}
-        \ecvitem[10pt]{}{University of Pennsylvania, Philadelphia, United States}
+  % ----------------------------------------  
 
-        \ecvitem{2012 - now}{\textbf{Master Degree in Computer Science}}
-        \ecvitem{}{Universidad Nacional de Rosario, Rosario, Argentina}
-        \ecvitem{}{Grade average: 8.74 of 10.0}
-        \ecvitem{}{Remaining subjects: Thesis presentation}
-        \ecvitem[10pt]{}{Expected graduation date: June 2018}
-        
-        \ecvitem{2013}{\textbf{Intensive Java Course}}
-        \ecvitem{}{Polo Tecnol\'ogico Rosario, Rosario, Argentina}
-        \ecvitem[10pt]{}{Course grade: 10 of 10}
+  \ecvsection{Education and training}
 
-        \ecvitem{2011 - 2012}{\textbf{Electronic Engineer Degree
-            (Incomplete)}}
-        \ecvitem{}{Universidad Nacional de Rosario, Rosario, Argentina}
+  \ecvitem{2017}{\textbf{DeepSpeec Summer School 2017}}
+  \ecvitem[10pt]{}{University of Pennsylvania, Philadelphia, United States}
 
-    \ecvsection{Internships}
+  \ecvitem{2012 - now}{\textbf{Licenciate Degree in Computer Science}}
+  \ecvitem{}{Universidad Nacional de Rosario, Rosario, Argentina}
+  \ecvitem{}{Grade average: 8.75 of 10.0}
+  \ecvitem{}{Remaining subjects: Thesis presentation}
+  \ecvitem[10pt]{}{Expected graduation date: July 2018}
+  
+  \ecvitem{2013}{\textbf{Intensive Java Course}}
+  \ecvitem{}{Polo Tecnol\'ogico Rosario, Rosario, Argentina}
+  \ecvitem[10pt]{}{Course grade: 10 of 10}
 
-        \ecvitem{2016 - 2017}{``Automatic Derivation of Random 
-            Generators for Common File Formats''}
-        \ecvitem{}{Keywords: functional programming, Haskell, metaprogramming,
-            software testing, fuzzing, security bugs discovering.} 
-        \ecvitem{}{Supervised by 
-            \href{mailto:grieco@cifasis-conicet.gov.ar}{Gustavo Grieco} and 
-            \href{mailto:ceresa@cifasis-conicet.gov.ar}{Mart\'in Ceresa}
-            at \href{http://www.cifasis-conicet.gov.ar/}{CIFASIS}.}
+  \ecvitem{2011 - 2012}{\textbf{Electronic Engineer Degree (Incomplete)}}
+  \ecvitem{}{Universidad Nacional de Rosario, Rosario, Argentina}
 
-    \ecvsection{Publications}
-        
-        \ecvitem{2017}{G. Grieco, M. Ceresa, A. Mista, P. Buiras:}
-        \ecvitem{}{\emph{``Quickfuzz testing for fun and profit''}}
-        \ecvitem{}{Journal of Systems and Software 
-            (\href{http://labdcc.fceia.unr.edu.ar/~amista/articles/qf.pdf}
-            {link})}
-        \ecvitem{Under revision}{A. Mista, A. Russo, J. Hughes:}
-        \ecvitem{}{\emph{``Branching Processes for QuickCheck Generators''}}
-        \ecvitem{}{Proceedings of International Conference of Functional
-            Programming 2018
-            (\href{http://labdcc.fceia.unr.edu.ar/~amista/articles/brproc.pdf}
-            {link})}
-    
-    \ecvsection{Software Development}
-        
-        \ecvitem{\href{http://quickfuzz.org}{QuickFuzz}}{An experimental
-            grammar fuzzer written in Haskell using QuickCheck.}
-        \ecvitem{\href{http://bitbucket.com/agustinmista/dragen}{DRaGen}}{
-          Metaprogramming tool to automatically derive optimized QuickCheck
-          generators.}
-        \ecvitem{\href{http://github.com/agustinmista/mdviewer}{mdviewer}}{  
-            Minimalistic Markdown viewer/converter written in Haskell using Pandoc.}
+  % ----------------------------------------  
 
-    \ecvsection{Languages}
+  \ecvsection{Internships}
 
-        \ecvitem[10pt]{Spanish}{\textbf{Mother tongue}}
-        \ecvitem[10pt]{English}{Professional working proficiency}
+  \ecvitem{2016 - 2017}{``Automatic Derivation of Random Generators for Common
+    File Formats''} \ecvitem{}{Keywords: functional programming, Haskell,
+    metaprogramming, software testing, fuzzing, security bugs discovering.}
+  \ecvitem{}{Supervised by \href{mailto:grieco@cifasis-conicet.gov.ar}{Gustavo
+      Grieco} and \href{mailto:ceresa@cifasis-conicet.gov.ar}{Mart\'in Ceresa}
+    at \href{http://www.cifasis-conicet.gov.ar/}{CIFASIS}.}
 
-    \ecvsection{Computer Skills}
+  % ----------------------------------------  
 
-        \ecvitem[10pt]{Programming Languages}{Haskell, Java, Python, C/C++, R}
-        %\ecvitem[10pt]{Specification Languages}{Z, CSP, TLA+}
-        \ecvitem[10pt]{Proof Assistants}{Coq, Z/Eves}
-        \ecvitem[10pt]{Software Versioning Systems}{Git, Subversion}
-        %IMe\ecvitem[10pt]{Operating Systems}{GNU/Linux, macOS, Windows}
+  \ecvsection{Publications}
+  
+  \ecvitem{2017}{G. Grieco, M. Ceresa, A. Mista, P. Buiras:}
+  \ecvitem{}{\emph{``Quickfuzz testing for fun and profit''}} \ecvitem{}{Journal
+    of Systems and Software
+    (\href{http://labdcc.fceia.unr.edu.ar/~amista/articles/qf.pdf} {link})}
+  \ecvitem{Under revision}{A. Mista, A. Russo, J. Hughes:}
+  \ecvitem{}{\emph{``Branching Processes for QuickCheck Generators''}}
+  \ecvitem{}{Proceedings of International Conference of Functional Programming
+    2018 (\href{http://labdcc.fceia.unr.edu.ar/~amista/articles/brproc.pdf}
+    {link})}
+  
+  % ----------------------------------------  
 
-    \ecvsection{Courses}
+  \ecvsection{Software Development}
+  
+  \ecvitem{\href{http://quickfuzz.org}{QuickFuzz}}{Experimental grammar fuzzer
+    written in Haskell using QuickCheck.}
+  \ecvitem{\href{http://bitbucket.com/agustinmista/dragen}{DRaGen}}{Automatic
+    tool to derive optimized QuickCheck generators.}
+  \ecvitem{\href{http://github.com/agustinmista/mdviewer}{mdviewer}}{
+    Minimalistic Markdown viewer/converter written in Haskell using Pandoc.}
 
-        \ecvitem[10pt]{}{\textbf{Master's Degree in Computer Science}}
-        \ecvitem{First Year}{Algebra and Analytic Geometry I (7)}
-        \ecvitem{}{Algebra and Analytic Geometry II (7)}
-        \ecvitem{}{Mathematical Analysis I (7)}
-        \ecvitem{}{Mathematical Analysis II (9)}
-        \ecvitem{}{Programming I (10)}
-        \ecvitem{}{Programming II (9)}
-        \ecvitem{Second Year}{Linear Algebra (6)}
-        \ecvitem{}{Data Structures and Algorithm I (9)}
-        \ecvitem{}{Formal Languages and Computability (8)}
-        \ecvitem{}{Computer Architecture (9)}
-        \ecvitem{}{Mathematical Complement (10)}
-        \ecvitem{}{Logic (8)}
-        \ecvitem{}{Numerical Methods (8)}
-        \ecvitem{Third Year}{Operating Systems I (10)}
-        \ecvitem{}{Data Structures and Algorithm II (8)}
-        \ecvitem{}{Probability and Statistics (7)}
-        \ecvitem{}{Analysis of Programming Languages (8)}
-        \ecvitem{}{Computer Networking (10)}
-        \ecvitem{}{Physical Models (10)}
-        \ecvitem{}{Database Theory (8)}
-        \ecvitem{Fourth Year}{Software Engineering I (8)}
-        \ecvitem{}{Software Engineering II (9)}
-        \ecvitem{}{Operating Systems II (10)}
-        \ecvitem{}{Introduction to Artificial Intelligence (9)}
-        \ecvitem{}{Mathematical Complement II (8)}
-        \ecvitem{}{Compilers (10)}
-        \ecvitem{Fifth Year}{Computer Security (10)}
-        \ecvitem{}{Thesis Workshop (10)}
-        \ecvitem{}{Internship Workshop (10)}
-        \ecvitem{Elective Courses}{Introduction to Machine Learning}
-        \ecvitem{}{Data Mining (9)}
-        \ecvitem{}{Formal Development of Programs in Type Theory (10)}
-        
-    \ecvsection{Academic Interests}
+  % ----------------------------------------  
 
-        \ecvitem{Theory of Programming}{Functional Programming, Type Theory, 
-            Domain Specific Languages,$\lambda$-calculus.} 
-        \ecvitem[10pt]{Languages}{}
-        \ecvitem[10pt]{Software Security}{Random Testing, Automatic Testing, Data Flow
-            Analysis.}
+  \ecvsection{Languages}
 
-    \ecvsection{Additional Information}
+  \ecvitem[10pt]{Spanish}{\textbf{Mother tongue}}
+  \ecvitem{English}{Professional working proficiency}
 
-        \ecvitem[10pt]{\textbf{Awards}}{Bicentennial scholarship to the highest
-            high school grade (2010).}
-        \ecvitem[10pt]{\textbf{Personal interests}}{Gastronomy, Science Fiction, Traveling}
+
+  % ----------------------------------------  
+
+  \ecvsection{Computer Skills}
+
+  \ecvitem[10pt]{Programming Languages}{Haskell, Java, Python, Erlang, R, C/C++}
+  \ecvitem[10pt]{Proof Assistants}{Coq, Z/Eves}
+  \ecvitem[10pt]{Software Versioning Systems}{Git, Subversion}
+  \ecvitem[10pt]{Specification Languages}{TLA+, Z, CSP}
+  % IMe\ecvitem[10pt]{Operating Systems}{GNU/Linux, macOS, Windows}
+
+  % ----------------------------------------  
+
+  \ecvsection{Courses}
+
+  \ecvitem[10pt]{}{\textbf{Licenciate Degree in Computer Science}}
+  \ecvitem{First Year}{Algebra and Analytic Geometry I (7)}
+  \ecvitem{}{Algebra and Analytic Geometry II (7)}
+  \ecvitem{}{Mathematical Analysis I (7)}
+  \ecvitem{}{Mathematical Analysis II (9)}
+  \ecvitem{}{Programming I (10)}
+  \ecvitem{}{Programming II (9)}
+  \ecvitem{Second Year}{Linear Algebra (6)}
+  \ecvitem{}{Data Structures and Algorithm I (9)}
+  \ecvitem{}{Formal Languages and Computability (8)}
+  \ecvitem{}{Computer Architecture (9)}
+  \ecvitem{}{Mathematical Complement (10)}
+  \ecvitem{}{Logic (8)}
+  \ecvitem{}{Numerical Methods (8)}
+  \ecvitem{Third Year}{Operating Systems I (10)}
+  \ecvitem{}{Data Structures and Algorithm II (8)}
+  \ecvitem{}{Probability and Statistics (7)}
+  \ecvitem{}{Analysis of Programming Languages (8)}
+  \ecvitem{}{Computer Networking (10)}
+  \ecvitem{}{Physical Models (10)}
+  \ecvitem{}{Database Theory (8)}
+  \ecvitem{Fourth Year}{Software Engineering I (8)}
+  \ecvitem{}{Software Engineering II (9)}
+  \ecvitem{}{Operating Systems II (10)}
+  \ecvitem{}{Introduction to Artificial Intelligence (9)}
+  \ecvitem{}{Mathematical Complement II (8)}
+  \ecvitem{}{Compilers (10)}
+  \ecvitem{Fifth Year}{Computer Security (10)}
+  \ecvitem{}{Thesis Workshop (10)}
+  \ecvitem{}{Internship Workshop (10)}
+  \ecvitem{Elective Courses}{Introduction to Machine Learning (9)}
+  \ecvitem{}{Data Mining (9)}
+  \ecvitem{}{Formal Development of Programs in Type Theory (10)}
+  
+  % ----------------------------------------  
+
+  \ecvsection{Academic Interests}
+
+  \ecvitem{Theory of Programming}{Functional Programming, Type Theory, Domain
+    Specific Languages,}
+  \ecvitem[10pt]{Languages}{$\lambda$-calculus.}
+  \ecvitem[10pt]{Software Security}{Random Testing, Automatic Testing, Data Flow
+    Analysis.}
+
+  % ----------------------------------------  
+
+  \ecvsection{Additional Information}
+
+  \ecvitem[10pt]{\textbf{Awards}}{Bicentennial scholarship to the highest high
+    school grade (2010).}
+  \ecvitem[10pt]{\textbf{Personal interests}}{Gastronomy, Science Fiction,
+    Traveling}
 
 \end{europecv}
 \end{document} 

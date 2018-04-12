@@ -1,67 +1,106 @@
-\documentclass[helvetica,openbib,logo,notitle,flagCMYK,totpages]{europecv}
+\documentclass[helvetica,notitle,flagCMYK,totpages,11pt]{europecv}
 \usepackage[T1]{fontenc}
 \usepackage{graphicx}
-\usepackage[a4paper,top=1.27cm,left=3.5cm,right=3.5cm,bottom=2cm]{geometry}
+\usepackage[a4paper,top=1.27cm,left=2.5cm,right=2.5cm,bottom=2cm]{geometry}
 \usepackage[english]{babel}
 \usepackage{url}
 \usepackage{hyperref}
 
-\linespread{1.2}
+\linespread{1}
 \setlength{\parskip}{1em}
-
-
-\title{Statement of Purpose}
-\author{Claudio Agust\'in Mista}
-\date{}
-
-\begin{document}
+\setlength\parindent{0pt}
 \selectlanguage{english}
 
+
+\title{
+  \begin{flushright}
+    \Large{Claudio Agustín Mista}\\
+    \small{\url{amista@dcc.fceia.unr.edu.ar}}\\
+    % \small{Universidad Nacional de Rosario}\\
+    \small{Rosario, Argentina}\\
+    \small{\today}
+  \end{flushright}
+  \vspace{-30pt}
+}
+
+\date{} 
+
+
+\begin{document}
+
 \maketitle 
-   
-    Four years of Computer Science study and a successful student internship at
-    Argentina's scientific research institute led me to where I am today:
-    wanting to become an active member of the scientific community, interested
-    in research fields such as Theory of Programming Languages and Systems
-    Security. 
 
-    My personal interest in the academia begun right after I was exposed to the
-    concept of Functional Programming for the first time at a data structures
-    course in my university (more precisely with the Haskell programming
-    language), wondering myself about the many advantages that comes with a
-    programming language with such strong mathematical underlying machinery.
-    Many concepts of the category theory that I had to study before now have a
-    \emph{useful} application in real world software! 
+Dear Octopi project faculty members,
 
-    My first approach to the scientific research ecosystem was at my student
-    internship CIFAFIS-CONICET under the supervision of Gustavo Grieco and
-    Mart\'in Ceresa, where I actively participated improving QuickFuzz, a
-    Haskell written experimental grammar fuzzer able to find security
-    compromising bugs in real world applications and libraries. In particular,
-    I have studied and implemented a technique to automatically derive random
-    value generators of third-party libraries using metaprogramming. This
-    improvements allowed me to find and report previously unknown security
-    concerning bugs on libraries used by big software systems such as Mozilla
-    Thunderbird and the GNOME Project. During this internship, we also wrote an
-    article submitted to the Journal of Systems and Software, describing the
-    state of the art techniques used and the results obtained in the later
-    stages of development of QuickFuzz. This article is currently under
-    revision. 
+I am writing to express my interest in the PhD student position at Chalmers
+University of Technology you are offering.
+%
+I am a Licentiate Student in Computer Science (five years program, equivalent to
+a MSc. degree) at the National University of Rosario, in Rosario, Argentina.
+%
+I am currently waiting for the approval of my final dissertation, expecting to
+graduate in June of the current year.
+%
+I am confident that my computer science background along with my research
+experience makes me an ideal candidate for your open position.
 
-    After finishing my student internship, I kept working at CIFASIS-CONICET
-    where I am doing relevant research to my Master's thesis, related to the
-    structural minimization of bug inducing test cases.   
 
-    Once I finish my Master in Computer Science studies, I am interested in
-    applying for a PhD position where I could make active research on the
-    fields of my interest. In particular, I aim to make a progress in how
-    functional programming and software security can converge leading in better
-    and safer systems. 
+I have a strong background in functional programming, specially in Haskell,
+since it is the main programming language used at many courses of my ongoing
+licentiate degree.
+%
+Over the past two years, I spent my time working on penetration testing in
+Haskell. Starting with an internship at CIFASIS-CONICET supervised by Gustavo
+Grieco, where I became one of the main developers of QuickFuzz, a prolific
+experimental fuzzer written in Haskell and based on QuickCheck.
+%
+There, I worked mainly developing meta-programming tools to generate random data
+based on external libraries interfaces.
+%
+This internship gave me the opportunity of co-authoring an article published in
+the Journal of Systems and Software, addressing the state-of-the-art techniques
+used in the development of QuickFuzz to exploit datatype-driven generation of
+data.
+%
+Moreover, in mid-2107 I started working with Professor Alejandro Russo on a
+meta-programming tool to derive optimized QuickCheck generators using a
+predictive approach.
+%
+In this light, I had the opportunity to visit Chalmers University in October of
+2017, with the purpose of writing an article (currently under revision)
+submitted to the International Conference on Functional Programming, describing
+the theoretical an empirical results involved in the development of DRaGen, the
+resulting tool of the joint work with Alejandro.
 
-    %Since my geographical situation does not offer many academic events of this
-    %degree of relevance, 
-    I believe that having an opportunity to assist to the Cornell, Maryland,
-    Max Planck Pre-doctoral Research School would be an important step in the
-    direction I want my academic career to evolve.
+
+I think that software testing is a critical task that can be greatly automated
+in the presence of systems developed using a strongly typed language like
+Haskell, exploiting the statically known compile-time information.
+%
+A research target highly relevant to the Octopi project, considering the current
+exponential growth of, barely verified, unsafe IoT devices.
+
+
+I believe that I am a suitable candidate for the PhD position in view of my
+expertise on functional programming and random testing.
+%
+I hope therefore, that on consideration of my CV and the additional information
+I am providing, you will be persuaded of my potential to perform well and make a
+real contribution to the Octopi project.
+%
+In particular, my expertise ideally fits the Track E. (\emph{{Penetration
+    Testing}}) of the project, which I would like to contribute to.
+
+
+Thank you very much for taking the time to review my application. I am really
+looking forward to hearing from you. Feel free to contact me at anytime for
+further information.
+
+Kind regards.
+
+
+
+\vfill
+Agustín Mista.
 
 \end{document} 

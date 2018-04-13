@@ -304,8 +304,8 @@
 
 % Page number
 \def\ecv@lfoot{%
-  \footnotesize\textrm{\ecv@page~-~\ecv@cvofkey}\\
-  \textrm{\ecv@footername}
+  % \footnotesize\textrm{\ecv@page~-~\ecv@cvofkey}\\
+  % \textrm{\ecv@footername}
 }
 
 % Right Footnote to be shown on every page
